@@ -11,6 +11,7 @@
     "Person": "pass:Person",
     "Policy": "pass:Policy",
     "Publisher": "pass:Publisher",
+    "Repository": "pass:Repository",
     "Submission": "pass:Submission",
     "User": "pass:User",
     "Workflow": "pass:Workflow",
