@@ -18,6 +18,7 @@ The data model consists of the following components. Each is documented in full 
 * [Journal](documentation/Journal.md)
 * [Person](documentation/Person.md)
 * [Policy](documentation/Policy.md)
+* [Publication](documentation/Publication.md)
 * [Publisher](documentation/Publisher.md)
 * [Repository](documentation/Repository.md)
 * [Submission](documentation/Submission.md)
