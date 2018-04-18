@@ -1,6 +1,6 @@
 # Grant
 
-Grants/awards are received by one or more [Persons](Person.md) and can have 0 or more related [Submissions](Submission.md)
+Grants are imported from the institutional Grant system (COEUS in the case of JHU). They are associated with the Grant's PIs via their [User](User.md) records. Users of PASS can assign the Grants associated with them to [Submissions](Submission.md).
 
 | Field  		| Type  		| Description |
 | ------------- | ------------- | ------------- |

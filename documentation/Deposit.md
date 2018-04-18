@@ -1,6 +1,6 @@
 # Deposit
 
-A [Submission](Submission.md) can have multiple Deposits, each to a different [Repository](Repository.md). This model describes the interaction of PASS with a target [Repository](Repository.md) for an individual [Submission](Submission.md) with the purpose of satisfying one or more [Policies](Policy.md).
+A [Submission](Submission.md) can have multiple Deposits, each to a different [Repository](Repository.md). This entity describes the interaction of PASS with a target [Repository](Repository.md) for an individual [Submission](Submission.md) with the purpose of satisfying one or more [Policies](Policy.md).
 
 | Field  		| Type  		| Description |
 | ------------- | ------------- | ------------- |

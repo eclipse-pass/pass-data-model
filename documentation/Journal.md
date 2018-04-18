@@ -1,6 +1,6 @@
 # Journal
 
-A [Submission](submission) may contain the author's accepted manuscript to be published in a Journal. The journal and/or its [Publisher](Publisher.md) may determine whether actions to submit the manuscript by researchers are required to be in compliance with National Institutes of Health Public Access Policy.
+A Journal is associated with a [Publication](Publication.md). In some cases, the Journal may be important for determining whether the [User](User.md) needs to manually create a [Submission](Submission.md) through PASS or whether the [Publisher](Publisher.md) has a pre-existing arrangement with the target [Repository](Repository.md). Specifically, in the case of the National Institutes of Health Public Access Policy, many Journals already make arrangements to submit the author's accepted manuscript to PubMed Central directly.
 
 | Field  		| Type  		| Description |
 | ------------- | ------------- | ------------- |

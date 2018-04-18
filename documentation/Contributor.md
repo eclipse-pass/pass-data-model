@@ -1,6 +1,6 @@
 # Contributor
 
-A Contributor is a person who had one or more roles (such as author) for a [Publication](Publication.md).
+A Contributor is a person who contributed to a [Publication](Publication.md). The contributor model captures the person information as well as the roles they played in creating the publication (e.g. author).
 
 | Field  		| Type  		| Description |
 | ------------- | ------------- | ------------- |
@@ -14,7 +14,7 @@ A Contributor is a person who had one or more roles (such as author) for a [Publ
 | orcidId | String | ORCID ID for the person |
 | affiliation | String | Affiliation string for the person. Where Person is embedded in a Submission or Grant, this is the affiliation relevant to that item.  |
 | roles | List[Enum] ([_see list below_](#roles-options)) | One or more roles that this Contributor performed for the associated [Publication](Publication.md) |
-| publication | URI | URI of the [Publication](Publication.md) that this person is a contributor to |
+| publication* | URI | URI of the [Publication](Publication.md) that this person is a contributor to |
 | user | URI | URI of the [User](User.md) that this Contributor represents |
  
 *required 
