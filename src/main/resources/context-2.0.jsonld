@@ -74,7 +74,7 @@
       "step": {"@id": "pass:step"},
       "steps": {"@id": "pass:steps"},
     "submission": {"@id": "pass:submission", "@type": "@id"},
-    "submitted": {"@id": "pass:submitted", "@type:": "@id"},
+    "submitted": {"@id": "pass:submitted", "@type:": "xsd:boolean"},
     "submittedDate": {"@id": "pass:submittedDate", "@type": "xsd:dateTime"},
     "title": {"@id": "pass:title"},
     "uri": {"@id": "pass:uri", "@type": "@id"},
