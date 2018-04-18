@@ -15,7 +15,7 @@ A User of the PASS system. This includes prefered person information that can be
 | institutionalId* | String | ID assigned by User's institution (JHED-ID for JHU) |
 | localKey | String | A key used to look up the User in a local system. In the case of JHU, this is the ID from the person's COEUS record, which is different from the JHED-ID. |
 | orcidId | String | ORCID ID for the User |
-| role* | Enum ([_see list below_](#role-options)) | User role |
+| roles* | List[Enum] ([_see list below_](#role-options)) | User roles |
 
 *required 
 
