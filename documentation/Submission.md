@@ -27,8 +27,7 @@ These are the possible statuses for a Submission's aggregatedDepositStatus field
 | Value  					| Description |
 | -------------------------- | ------------- |
 | not-started | No [Deposits](Deposit.md) have been initiated for the Submission |
-| in-progress | One or more [Deposits](Deposit.md) for the Submission have been initiated, none of them have the status of "rejected", and at least one has not reached the status of "accepted" |
-| delayed | One or more [Deposits](Deposit.md) have a status of "rejected" |
+| in-progress | One or more [Deposits](Deposit.md) for the Submission have been initiated, and at least one has not reached the status of "accepted" |
 | accepted | All related [Deposits](Deposit.md) have a status of "accepted" |
 
 ## Source options
