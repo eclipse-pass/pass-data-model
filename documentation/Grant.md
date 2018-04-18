@@ -11,8 +11,8 @@ Grants/awards are received by one or more [Persons](Person.md) and can have 0 or
 | projectName* | String | Title of the research project |
 | primaryFunder* | URI | URI of the [Funder](Funder.md) that is the original source of the funds. This will often be the same as directFunder. |
 | directFunder* | URI | URI of the [funding](Funder.md) organization from which funds are directly received. This will often be the same as primaryFunder. |
-| pi* | URI | URI of the [Person](Person.md) who is the Principal investigator |
-| coPis | List[URI] | List of URIs of the [[People](Person.md)] who are the co-principal investigators |
+| pi* | URI | URI of the [User](User.md) who is the Principal investigator |
+| coPis | List[URI] | List of URIs of the [[User](User.md)] who are the co-principal investigators |
 | awardDate* | DateTime | Date the grant was awarded |
 | startDate | DateTime | Date the grant started |
 | endDate | DateTime | Date the grant ended |

@@ -1,6 +1,6 @@
 # Repository
 
-A Repository is the target of a [Deposit](Deposit.md)
+A Repository is the target of a [Deposit](Deposit.md). It is a platform where [copies](RepositoryCopy.md) of [publications](Publication.md) can be [deposited](Deposit.md) in order to comply with [Funder](Funder.md) and institutional access [policies](Policy.md).
 
 | Field  		| Type  		| Description |
 | ------------- | ------------- | ------------- |
@@ -8,6 +8,7 @@ A Repository is the target of a [Deposit](Deposit.md)
 | name* | String | Name of repository e.g. "PubMed Central" |
 | description | String | Several sentence description of repository |
 | url | String | URL to the homepage of the repository so that PASS users can view the platform before deciding whether to participate in it |
+| formSchema | String | Stringified JSON representing a form template to be loaded by the front-end when this Repository is selected |
  
 *required 
 
