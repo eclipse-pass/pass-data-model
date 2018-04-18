@@ -25,7 +25,6 @@ The data model consists of the following components. Each is documented in full 
 * [RepositoryCopy](documentation/RepositoryCopy.md)
 * [Submission](documentation/Submission.md)
 * [User](documentation/User.md)
-* [Workflow](documentation/Workflow.md)
 
 The system also automatically creates additional properties for each entity. These are documented in [System Properties](SystemProperties.md).
 
