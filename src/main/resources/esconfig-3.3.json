@@ -107,7 +107,7 @@
         "repositoryCopy": {"type": "keyword", "normalizer": "fedora_uri"},
         "repositories": {"type": "keyword", "normalizer": "fedora_uri"},        
         "roles": {"type": "keyword"},
-	"schema": {"type": "keyword"},
+	"schemas": {"type": "keyword"},
         "source": {"type": "keyword"},        
         "startDate": {"type": "date"},
         "submission": {"type": "keyword", "normalizer": "fedora_uri"},
