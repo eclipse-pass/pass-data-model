@@ -77,7 +77,7 @@
     "repositoryKey": {"@id": "pass:repositoryKey"},
     "repositories": {"@id": "pass:repositories", "@container": "@set", "@type": "@id"},
     "roles": {"@id": "pass:roles", "@container": "@set"},
-    "schema": {"@id": "pass:schema", "@type": "@id"},
+    "schemas": {"@id": "pass:schemas", "@container": "@set", "@type": "@id"},
     "source": {"@id": "pass:source"},
     "startDate": {"@id": "pass:startDate", "@type": "xsd:dateTime"},
     "submission": {"@id": "pass:submission", "@type": "@id"},
