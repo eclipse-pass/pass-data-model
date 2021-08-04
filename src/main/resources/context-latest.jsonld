@@ -35,6 +35,7 @@
     "directFunder": {"@id": "pass:directFunder", "@type": "@id"},
     "displayName": {"@id": "pass:displayName"},
     "doi": {"@id": "pass:doi"},
+    "effectivePolicies": {"@id": "pass:effectivePolicies", "@container": "@set", "@type": "@id"},
     "email": {"@id": "pass:email"},
     "endDate": {"@id": "pass:endDate", "@type": "xsd:dateTime"},
     "eventType": {"@id": "pass:eventType"},
