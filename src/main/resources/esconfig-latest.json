@@ -107,7 +107,8 @@
         "repositoryCopy": {"type": "keyword", "normalizer": "fedora_uri"},
         "repositories": {"type": "keyword", "normalizer": "fedora_uri"},        
         "roles": {"type": "keyword"},
-        "source": {"type": "keyword"},        
+  "schemas": {"type": "keyword"},
+        "source": {"type": "keyword"},
         "startDate": {"type": "date"},
         "submission": {"type": "keyword", "normalizer": "fedora_uri"},
         "submissionStatus": {"type": "keyword"},
@@ -116,10 +117,10 @@
         "submitter": {"type": "keyword", "normalizer": "fedora_uri"},
         "submitterEmail": {"type": "keyword"},
         "submitterName": {"type": "text", "analyzer": "simple"},
-        "title": {"type": "text"},        
+        "title": {"type": "text"},
         "uri": {"type": "keyword"},
         "url": {"type": "keyword"},
-        "user": {"type": "keyword", "normalizer": "fedora_uri"},        
+        "user": {"type": "keyword", "normalizer": "fedora_uri"},
         "username": {"type": "keyword"},
         "volume": {"type": "keyword"}
       }
