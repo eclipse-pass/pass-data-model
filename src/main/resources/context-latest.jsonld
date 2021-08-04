@@ -38,7 +38,6 @@
     "fileRole": {"@id": "pass:fileRole"},
     "firstName": {"@id": "pass:firstName"},
     "formSchema": {"@id": "pass:formSchema"},
-    "funder": {"@id": "pass:funder", "@type": "@id"},
     "grants": {"@id": "pass:grants", "@container": "@set", "@type": "@id"},
     "institution": {"@id": "pass:institution", "@type": "@id"},
     "institutionalId": {"@id": "pass:instutionalId"},
