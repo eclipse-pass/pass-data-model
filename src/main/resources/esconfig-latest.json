@@ -19,6 +19,16 @@
           "type": "pattern_replace",
           "pattern": "\\.|-|\\s",
           "replacement": ""
+        },
+        "nih_ending_suffix_ignore": {
+          "type": "pattern_replace",
+          "pattern": "\\A(.*)-[0-9]*\\Z",
+          "replacement": "$1"
+        },
+        "nih_leading_num_ignore": {
+          "type": "pattern_replace",
+          "pattern": "\\A[0-9]*",
+          "replacement": ""
         }
       },
       "normalizer": {
@@ -34,7 +44,7 @@
         },
         "award_number": {
           "type": "custom",
-          "char_filter": ["period_dash_whitespace_ignore", "nih_zero_ignore"],
+          "char_filter": ["nih_leading_num_ignore", "nih_ending_suffix_ignore", "nih_zero_ignore", "period_dash_whitespace_ignore"],
           "filter": ["lowercase", "asciifolding"]
         }
       }
@@ -42,11 +52,11 @@
   },
   "mappings": {
     "_doc": {
-      "dynamic": false,      
+      "dynamic": false,
       "properties": {
         "@context": {"type": "keyword", "normalizer": "fedora_uri"},
         "@id": {"type": "keyword", "normalizer": "fedora_uri"},
-        "@type": {"type": "keyword"},        
+        "@type": {"type": "keyword"},
         "abstract": {"type": "text"},
         "accessUrl": {"type": "keyword"},
         "affiliation": {"type": "text"},
