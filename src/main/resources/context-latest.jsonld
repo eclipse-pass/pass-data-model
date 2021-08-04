@@ -20,7 +20,7 @@
 
     "abstract": {"@id": "pass:abstract"},
     "accessUrl": {"@id": "pass:accessUrl", "@type": "@id"},
-    "affiliation": {"@id": "pass:affiliation"},
+    "affiliation": {"@id": "pass:affiliation", "@container": "@set"},
     "agreementText": {"@id": "pass:agreementText"},
     "aggregatedDepositStatus": {"@id": "pass:aggregatedDepositStatus"},
     "awardDate": {"@id": "pass:awardDate", "@type": "xsd:dateTime"},
