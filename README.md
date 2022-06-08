@@ -7,8 +7,6 @@ In this project you will find
 * [Model Diagram](#model-diagram) - a diagram showing the relationships between each object
 * [JSON-LD Contexts](#json-ld-contexts) - contexts used to convert PASS JSON to JSON LD
 
-The Ember application is available in a [separate repository](https://github.com/DataConservancy/pass-ember).
-
 ## Model Objects
 The data model consists of the following components. Each is documented in full on its own page, you can see all of these pages in the [documentation](documentation/) folder
 
